@@ -3,6 +3,6 @@ return {
 	opts = {
 		signcolumn = false,
 		numhl = true,
-		max_file_lenght = 10000,
+		max_file_length = 10000,
 	},
 }
