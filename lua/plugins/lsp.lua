@@ -217,6 +217,8 @@ return {
 			-- But for many setups, the LSP (`ts_ls`) will work just fine
 			-- ts_ls = {},
 			--
+			ruff = {},
+			mypy = {},
 			pyright = {},
 			lua_ls = {
 				-- cmd = { ... },
@@ -253,7 +255,6 @@ return {
 			"prettier",
 			"isort",
 			"black",
-			"pylint",
 		})
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
