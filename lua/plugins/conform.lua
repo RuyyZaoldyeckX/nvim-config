@@ -5,6 +5,7 @@ return {
 			lua = { "stylua" },
 			-- Conform will run multiple formatters sequentially
 			python = { "isort", "black" },
+			c = { "clang-format" },
 			-- python = { "ruff" },
 			-- You can customize some of the format options for the filetype (:help conform.format)
 			rust = { "rustfmt" },

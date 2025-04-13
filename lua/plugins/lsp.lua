@@ -205,7 +205,7 @@ return {
 		local servers = {
 			bashls = {},
 			marksman = {},
-			-- clangd = {},
+			clangd = {},
 			-- gopls = {},
 			-- pyright = {},
 			-- rust_analyzer = {},
@@ -255,6 +255,7 @@ return {
 			"prettier",
 			"isort",
 			"black",
+			"clang-format",
 		})
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
