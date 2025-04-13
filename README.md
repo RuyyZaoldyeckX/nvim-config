@@ -1,7 +1,15 @@
 # Requirements before running nvim
+## Installing npm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
-- install on system fzf -> sudo apt install fzf
-- for lsp depends on language:
-    - javascript -> npm
-    - prettier / prettierd -> unzip -> sudo apt install unzip
-    - ruff, python-lsp-server --> sudo apt install python3-venv, python3-pip
+nvm install --lts
+#----------------------------------
+fzf, unzip, python3-venv, python3-pip
+
+#----------------------------------
+# For configuring wezterm in Windows create.
+# remember to change route for source =
+User/.wezterm.lua
+
+# For configuring tmux in Linux.
+~/.tmux.conf
