@@ -1,8 +1,4 @@
 # Requirements before running nvim
-## Installing npm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-
-nvm install --lts
 #----------------------------------
 fzf, unzip, python3-venv, python3-pip
 npm (mason uses this to install pyright, prettier, ..)
@@ -16,6 +12,10 @@ User/.wezterm.lua
 ~/.tmux.conf
 
 # For Manual Installation
+
+## install nvm to handle language server installs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+nvm install --lts
 
 curl -LO https://github.com/neovim/neovim/releases/download/v0.11.5/nvim-linux-x86_64.tar.gz && \
 tar xzf nvim-linux-x86_64.tar.gz && \
